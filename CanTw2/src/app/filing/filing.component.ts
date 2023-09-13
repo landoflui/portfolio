@@ -13,9 +13,11 @@ export class FilingComponent implements OnInit {
   ngOnInit(): void {
     this.fetchData();
   }
+  filings: any[] = [];
 
   fetchData() {
     this.filingService.getFilingData('0001411579').subscribe(data => {
+      this.filings = data as any[];
       console.log(data);
     });
   }

@@ -1,0 +1,17 @@
+{
+    "name": "landoflui/cantw2",
+    "description": "stonks go up",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Landoflui\\Cantw2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "landoflui"
+        }
+    ],
+    "require": {}
+}
